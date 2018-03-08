@@ -8,7 +8,7 @@ import Intro from './components/intro'
 import Smartphone from './components/smartphone'
 // CSS
 import './index.css'
-import './css/stars.css'
+import './assets/css/stars.css'
 // Misc
 import registerServiceWorker from './registerServiceWorker'
 

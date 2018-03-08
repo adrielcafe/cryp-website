@@ -4,6 +4,12 @@ section#intro {
   margin-bottom: 50px;
 }
 
+section#intro a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 section#intro h1.title {
   font-size: 120px;
   line-height: 0;
@@ -15,6 +21,20 @@ section#intro p.subtitle {
 
 section#intro p.info {
   font-size: 18px;
+}
+
+section#intro p.credits {
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+section#intro p.credits i {
+  font-size: 12px;
+}
+
+section#intro p.credits br {
+  line-height: 20px;
 }
 
 section#intro .btn-download {
@@ -45,6 +65,15 @@ section#intro .btn-download i {
   padding-right: 10px;
   margin-left: 20px;
   font-size: 28px;
+}
+
+@media only screen and (max-width: 64em) {
+
+  section#intro p.credits {
+    position: inherit;
+    margin-top: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 48em){

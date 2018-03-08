@@ -12,6 +12,7 @@
     "react/jsx-filename-extension": 0,
     "no-console": 0,
     "semi": 0,
+    "linebreak-style": 0,
     "no-unused-vars": 1
   }
 }

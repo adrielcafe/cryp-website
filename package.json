@@ -1,6 +1,6 @@
 {
   "name": "Cryp",
-  "description": "Cryp's website",
+  "description": "Cryp app's website",
   "homepage": "https://adrielcafe.github.io/cryp",
   "version": "0.0.1",
   "private": true,
@@ -24,6 +24,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "push-dir --dir=build --branch=gh-pages",
-    "predeploy": "yarn run build"
+    "predeploy": "yarn build"
   }
 }
