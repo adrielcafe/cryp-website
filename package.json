@@ -1,7 +1,7 @@
 {
   "name": "Cryp",
   "description": "Cryp app's website",
-  "homepage": "https://adrielcafe.github.io/cryp",
+  "homepage": "http://cryp.download",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
