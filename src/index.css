@@ -1,0 +1,16 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1e8cc3 0%, #266270 100%) fixed;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+main section {
+  margin: 0 auto;
+}

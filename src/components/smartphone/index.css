@@ -1,0 +1,68 @@
+section#smartphone {
+  align-self: flex-end;
+}
+
+section#smartphone .device-google-pixel {
+  height: 658px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section#smartphone .device-google-pixel .device-frame {
+  height: 663px;
+  border-radius: 0;
+  border-top-left-radius: 54px;
+  border-top-right-radius: 54px;
+}
+
+section#smartphone .device-google-pixel .device-content {
+  border: none;
+  position: absolute;
+  z-index: 4;
+  background-image: url(/static/images/cryp-screenshot-1.png);
+  animation: smartphone-slideshow 20s linear 0s infinite;
+}
+
+section#smartphone .device-google-pixel .device-content:nth-child(2) {
+  z-index: 3;
+  background-image: url(/static/images/cryp-screenshot-2.png);
+  animation: smartphone-slideshow 20s linear 5s infinite;
+}
+
+section#smartphone .device-google-pixel .device-content:nth-child(3) {
+  z-index: 2;
+  background-image: url(/static/images/cryp-screenshot-3.png);
+  animation: smartphone-slideshow 20s linear 10s infinite;
+}
+
+section#smartphone .device-google-pixel .device-content:nth-child(4) {
+  z-index: 1;
+  background-image: url(/static/images/cryp-screenshot-4.png);
+  animation: smartphone-slideshow 20s linear 15s infinite;
+}
+
+@keyframes smartphone-slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+@media only screen and (max-width: 48em){
+
+  section#smartphone .device-google-pixel {
+    height: 581px;
+    width: 320px;
+  }
+
+  section#smartphone .device-google-pixel .device-frame {
+    height: 588px;
+    width: 320px;
+  }
+
+  section#smartphone .device-google-pixel .device-content {
+    height: 500px;
+    width: 284px;
+  }
+
+}

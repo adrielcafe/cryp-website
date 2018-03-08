@@ -1,0 +1,28 @@
+{
+  "name": "Cryp",
+  "description": "Cryp's website",
+  "homepage": "https://adrielcafe.github.io/cryp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react-app": "^2.1.0",
+    "flow-bin": "^0.66.0",
+    "gh-pages": "^1.1.0"
+  },
+  "scripts": {
+    "postinstall": "flow-typed install",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
+  }
+}

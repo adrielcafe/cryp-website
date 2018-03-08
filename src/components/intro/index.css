@@ -1,0 +1,68 @@
+section#intro {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+section#intro h1.title {
+  font-size: 120px;
+  line-height: 0;
+}
+
+section#intro p.subtitle {
+  font-size: 34px;
+}
+
+section#intro p.info {
+  font-size: 18px;
+}
+
+section#intro .btn-download {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px 14px 60px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  transition: all .15s ease-in-out;
+}
+
+section#intro .btn-download:hover {
+  color: #266270;
+  background-color: #fff;
+}
+
+section#intro .btn-download i {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  padding-right: 10px;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 48em){
+
+  section#intro {
+    text-align: center;
+  }
+
+  section#intro h1.title {
+    font-size: 90px;
+  }
+  
+  section#intro p.subtitle {
+    font-size: 28px;
+  }
+  
+  section#intro p.info {
+    font-size: 14px;
+  }
+
+}
