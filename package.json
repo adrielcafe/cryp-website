@@ -14,7 +14,8 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-react-app": "^2.1.0",
     "flow-bin": "^0.66.0",
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.1.0",
+    "push-dir": "^0.4.1"
   },
   "scripts": {
     "postinstall": "flow-typed install",
