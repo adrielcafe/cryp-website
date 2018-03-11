@@ -2,7 +2,7 @@
 
 import React from 'react'
 import './index.css'
-import './devices.css'
+import './../../assets/css/devices.css'
 
 const Smartphone = () => (
   <section id="smartphone" className="col-md col-xs-12">

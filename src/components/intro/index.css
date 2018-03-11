@@ -4,12 +4,6 @@ section#intro {
   margin-bottom: 50px;
 }
 
-section#intro a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 section#intro h1.title {
   font-size: 120px;
   line-height: 0;
@@ -35,36 +29,6 @@ section#intro p.credits i {
 
 section#intro p.credits br {
   line-height: 20px;
-}
-
-section#intro .btn-download {
-  position: relative;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 14px 30px 14px 60px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  line-height: 1.5;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 30px;
-  transition: all .15s ease-in-out;
-}
-
-section#intro .btn-download:hover {
-  color: #266270;
-  background-color: #fff;
-}
-
-section#intro .btn-download i {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  padding-right: 10px;
-  margin-left: 20px;
-  font-size: 28px;
 }
 
 @media only screen and (max-width: 64em) {

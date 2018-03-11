@@ -15,12 +15,13 @@ const Intro = () => (
       let&#39;s you manage all your digital assets easily. Always knows your total portfolio
       balance, in real time!
     </p>
-    <a
-      className="btn-download"
-      href="https://play.google.com/store/apps/details?id=cafe.adriel.cryp"
-    >
+    <a className="btn" href="https://play.google.com/store/apps/details?id=cafe.adriel.cryp">
       <i className="material-icons">android</i>
       Google Play
+    </a>
+    <a className="btn" href="https://github.com/adrielcafe/CrypAndroidApp#donate">
+      <i className="material-icons">free_breakfast</i>
+      Donate
     </a>
     <p className="credits">
       Made with <i className="material-icons">favorite</i> by{' '}

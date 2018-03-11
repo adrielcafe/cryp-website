@@ -14,3 +14,53 @@ main {
 main section {
   margin: 0 auto;
 }
+
+main section a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main section a:hover {
+  text-decoration: underline;
+}
+
+main section .btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 14px 30px 14px 60px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  transition: all .15s ease-in-out;
+}
+
+main section .btn:hover {
+  color: #266270;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+main section .btn i {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  padding-right: 10px;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 48em){
+
+  main section .btn {
+    margin-right: 0;
+  }
+
+}
